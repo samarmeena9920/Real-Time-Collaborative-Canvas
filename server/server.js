@@ -18,6 +18,10 @@ const PORT = process.env.PORT || 3000;
 // Serve static client
 app.use('/client', express.static(path.join(__dirname, '..', 'client')));
 
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname, '..', 'client', 'index.html'));
+});
+
 io.on('connection', (socket) => {
   console.log('socket connected', socket.id);
 
