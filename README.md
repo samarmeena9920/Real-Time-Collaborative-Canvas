@@ -49,26 +49,22 @@ It demonstrates strong fundamentals in HTML5 Canvas manipulation, WebSocket comm
 
 ## 📁 Project Structure
 
-```
-
 collaborative-canvas/
 ├── client/
-│   ├── index.html
-│   ├── style.css
-│   ├── canvas.js/ts          # Canvas drawing logic
-│   ├── websocket.js/ts       # Client-side WebSocket handler
-│   └── main.js/ts            # Initialization and UI binding
+│ ├── index.html # Main HTML file
+│ ├── style.css # Styling for the canvas and UI
+│ ├── canvas.js/ts # Canvas drawing logic
+│ ├── websocket.js/ts # Client-side WebSocket handler
+│ └── main.js/ts # Initialization and UI binding
 │
 ├── server/
-│   ├── server.js/ts          # Node.js + WebSocket setup
-│   ├── rooms.js/ts           # Room/session management
-│   └── drawing-state.js/ts   # Canvas state management + Undo/Redo logic
+│ ├── server.js/ts # Node.js + WebSocket setup
+│ ├── rooms.js/ts # Room/session management
+│ └── drawing-state.js/ts # Canvas state management + Undo/Redo logic
 │
 ├── package.json
 ├── README.md
-└── ARCHITECTURE.md           # Required: Detailed architecture & design doc
-
-````
+└── ARCHITECTURE.md # Required: Detailed architecture & design doc
 
 ---
 
@@ -183,6 +179,3 @@ Deliver it like a production-grade mini-app — stable, optimized, and elegant. 
 **Author:** *[Samar Meena]*
 **GitHub:** [Samar Meena](https://github.com/samarmeena9920)
 **Date:** *November 2025*
-
-
-
