@@ -49,7 +49,7 @@ You can view the website by visiting: [Deployed Link](https://real-time-collabor
 | **No Drawing Libraries** | Pure Canvas API only |
 
 ---
-
+```
 ## 📁 Project Structure
 
 collaborative-canvas/
@@ -68,7 +68,7 @@ collaborative-canvas/
 ├── package.json
 ├── README.md
 └── ARCHITECTURE.md # Required: Detailed architecture & design doc
-
+```
 ---
 
 ## ⚙️ Setup & Installation
@@ -182,5 +182,6 @@ Deliver it like a production-grade mini-app — stable, optimized, and elegant. 
 **Author:** *[Samar Meena]*
 **GitHub:** [Samar Meena](https://github.com/samarmeena9920)
 **Date:** *November 2025*
+
 
 
