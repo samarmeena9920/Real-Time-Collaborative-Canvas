@@ -1,5 +1,3 @@
----
-
 ```markdown
 # 🎨 Real-Time Collaborative Drawing Canvas
 
@@ -7,8 +5,6 @@
 
 The **Real-Time Collaborative Drawing Canvas** is a multi-user web application that allows multiple participants to **draw simultaneously on the same canvas** with **real-time synchronization**.  
 It demonstrates strong fundamentals in HTML5 Canvas manipulation, WebSocket communication, and collaborative state management — all **without using frontend frameworks or external drawing libraries**.
-
----
 
 ## 🚀 Features
 
@@ -187,5 +183,6 @@ Deliver it like a production-grade mini-app — stable, optimized, and elegant. 
 **Author:** *[Samar Meena]*
 **GitHub:** [Samar Meena](https://github.com/samarmeena9920)
 **Date:** *November 2025*
+
 
 
