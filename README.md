@@ -8,6 +8,8 @@ It demonstrates strong fundamentals in HTML5 Canvas manipulation, WebSocket comm
 
 ## 🚀 Features
 
+---
+
 ### 🖌️ Drawing Tools
 - Brush and eraser functionality  
 - Adjustable stroke width and color palette  
@@ -31,7 +33,7 @@ It demonstrates strong fundamentals in HTML5 Canvas manipulation, WebSocket comm
 ### ⚙️ Backend Functionality
 - WebSocket (or Socket.io) based event broadcasting  
 - Room-based canvas session handling  
-- Synchronization and conflict management  
+- Synchronization and conflict management
 
 ---
 
@@ -72,8 +74,8 @@ collaborative-canvas/
 
 ### 1️⃣ Clone Repository
 ```bash
-git clone https://github.com/<your-username>/collaborative-canvas.git
-cd collaborative-canvas
+git clone https://github.com/<samarmeena9920>/Real-time-collaborative-canvas.git
+cd Real-time-collaborative-canvas
 ````
 
 ### 2️⃣ Install Dependencies
@@ -144,7 +146,7 @@ Refer to [`ARCHITECTURE.md`](./ARCHITECTURE.md) for:
 * Conflict resolution mechanism
 
 
-## 🎯 Bonus Points (Optional)
+## 🎯 Bonus Points
 
 * ✍️ **Touchscreen support** for mobile/tablet
 * 🏠 **Room-based canvases** for separate sessions
@@ -179,3 +181,4 @@ Deliver it like a production-grade mini-app — stable, optimized, and elegant. 
 **Author:** *[Samar Meena]*
 **GitHub:** [Samar Meena](https://github.com/samarmeena9920)
 **Date:** *November 2025*
+
