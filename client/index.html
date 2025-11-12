@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Collaborative Canvas</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <div id="sidebar">
+        <h3>Shapes</h3>
+        <div class="shape-group">
+          <button id="lineBtn" class="shape-btn" data-name="Line"></button>
+          <button id="rectBtn" class="shape-btn" data-name="Rectangle"></button>
+          <button id="roundedRectBtn" class="shape-btn" data-name="Rounded Rect"></button>
+          <button id="circleBtn" class="shape-btn" data-name="Circle"></button>
+        </div>
+        <div class="shape-group">
+          <button id="diamondBtn" class="shape-btn" data-name="Diamond"></button>
+          <button id="triangleBtn" class="shape-btn" data-name="Triangle"></button>
+          <button id="pentagonBtn" class="shape-btn" data-name="Pentagon"></button>
+          <button id="hexagonBtn" class="shape-btn" data-name="Hexagon"></button>
+        </div>
+        <div class="shape-group">
+          <button id="starBtn" class="shape-btn" data-name="Star"></button>
+          <button id="arrowBtn" class="shape-btn" data-name="Arrow"></button>
+        </div>
+      </div>
+      <div id="mainArea">
+      <div id="toolbar">
+        <input type="color" id="colorPicker" value="#000000" />
+        <input type="range" id="widthRange" min="1" max="50" value="4" />
+        <button id="toolbarMenu" class="toolbarMenu" aria-expanded="false" aria-controls="toolbarDropdown">Menu ▾</button>
+        <div id="toolbarDropdown" class="toolbarDropdown hidden" role="menu" aria-hidden="true"></div>
+        <button id="brushBtn">Brush</button>
+        <button id="eraserBtn">Eraser</button>
+        <button id="highlighterBtn">Highlighter</button>
+        <button id="dashedBtn">Dashed</button>
+        <button id="dottedBtn">Dotted</button>
+        <button id="solidBtn">Solid</button>
+        <button id="undoBtn">Undo</button>
+        <button id="redoBtn">Redo</button>
+        <div id="users">
+          <div id="userCount" aria-hidden="true" tabindex="0" title="Connected users"></div>
+          <div id="userList" title="" tabindex="0" aria-haspopup="true" aria-expanded="false"></div>
+          <div id="userDropdown" class="userDropdown hidden" role="menu" aria-hidden="true"></div>
+        </div>
+      </div>
+      <div id="canvasWrap">
+        <canvas id="canvas"></canvas>
+      </div>
+      </div>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="websocket.js"></script>
+    <script src="canvas.js"></script>
+    <script src="main.js"></script>
+  </body>
+  </html>
